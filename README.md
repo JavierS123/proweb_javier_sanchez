@@ -29,7 +29,7 @@ Al cambiar de branch, hacemos git push origin nombre_branch para que se sincroni
 
 ---
 
-Ejemplo: git swich staging || git branch develop
+Ejemplo: git swich staging || git switch develop   
 Ejemplo: git push origin staging || git push origin develop   
 ![step-3-image](/step3.png)
 ---
