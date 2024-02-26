@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend:{
+                    colors:{
+                        'black-bg': '#101010'
+                    },
+                    fontFamily: {
+                        rokkitt: ['Rokkitt', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class ="bg-[#101010] overflow-x-hidden">
+    <header class="bg-cover bg-center bg-no-repeat h-screen w-screen flex flex-col justify-between items-center">
+        <nav class="w-5/6 mx-auto mt-6 text-white flex justify-between">
+            <ul class="flex">
+                <li>HISTORY</li>
+                <li>DESTINATIONS</li>
+                <li>EXPERIENCES</li>
+            </ul>
+            <div class="button">
+                <p>EXPLORE</p>
+            </div>
+        </nav>
+        <h1 class="text-white font-rokkitt text-[250px] font-bold">JAPAN</h1>
+        <div class="w-[90%] mx-auto mb-6 text-white font-bold flex justify-between">
+            <div class="flex items-center">
+                <img src="./img/nevozhai.png" alt="" class="mr-2 h-[75px]">
+                <p>GET INTO THE FUTURE IN <span class="font-black">TOKYO</span></p>
+            </div>
+            <div class="flex items-center">
+                <img src="./img/zhijian-dai.png" alt="" class="mr-2 h-[75px]">
+                <p>EXPLORE NEW SITES IN <span class="font-black">KYOTO</span></p>
+            </div>
+            <div class="flex items-center">
+                <img src="./img/sorasak.png" alt="" class="mr-2 h-[75px]">
+                <p>GET IMPRESSED BY <span class="font-black">OSAKA</span></p>
+            </div>
+        </div>
+    </header>
+    <main class="w-full h-[70vh] mt-16">
+        <div class="w-[90%] mx-auto flex">
+            <div class="flex justify-center items-center max-h-[500px]">
+                <img src="./img/SlIl9eZjWUc.png" alt="" class="max-w-full max-h-full w-auto h-auto">
+            </div>
+            <div class="w-3/5 max-w-[600px] p-10 text-white flex flex-col">
+                <h2 class="font-bold text-5xl mb-3">Tales of Japan</h2>
+                <p class="text-[#acacac] font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, harum saepe? Adipisci quibusdam placeat magnam dolor, beatae laboriosam illo quod consequuntur, provident eaque voluptatum veniam ad at quae natus eos.</p>
+                <div class="button mt-auto max-w-[120px] text-center">
+                    JOIN US
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="w-[90vw] mx-auto">
+        <ul class="flex justify-evenly p-6">
+            <li>Javier Sánchez</li>
+            <li>Programación Web</li>
+            <li>Evaluacion #3 y #4</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
